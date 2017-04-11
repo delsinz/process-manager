@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Animus/Code/comp30023/process-manager/process.c
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+process.h
+/Users/Animus/Code/comp30023/process-manager/process.h
+
+/Users/Animus/Code/comp30023/process-manager/process.h
+
+/Users/Animus/Code/comp30023/process-manager/swap.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+assert.h
+-
+swap.h
+/Users/Animus/Code/comp30023/process-manager/swap.h
+
+/Users/Animus/Code/comp30023/process-manager/swap.h
+process.h
+/Users/Animus/Code/comp30023/process-manager/process.h
+
